@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div className="outer">
+    <form action="">
+        {% csrf_token %}
+        <h3 className="heading">Choose what would you like to do:</h3>
+        <div className="row1">
+            <div className="col1">
+                <input type="radio" name="choice" id="string" value="string" defaultChecked/>
+                <label htmlFor="file">Using String</label><br />
+            </div>
+            <div className="col2">
+                <input type="radio" name="choice" id="file" value="file"/>
+                <label htmlFor="file">Using File</label><br />
+            </div>
+        </div>
+        <div className="row2">
+            <div className="col1">
+                <textarea name="text" id="text1" cols="20" rows="3" placeholder="String or File URL here"></textarea><br />
+                <input type="text" name="text2" id="text2" className="text2" onChange=ditoL placeholder="Secret Key"/> <br />
+                <input type="submit" value="Encrypt" id="btn1" onClick=encrypt/><br />
+            </div>
+            <div className="col2">
+                <textarea name="text3" id="text3" cols="20" rows="3" placeholder="The Encrypted value is" ></textarea><br />
+                <input type="text" name="text4" id="text4" className="text4" onChange=ditoR placeholder="Secret Key" /> <br />
+                <input type="button" value="Decrypt" id="btn2" onClick=decrypt /><br />
+            </div>
+        </div>
+        <h3 className="heading white">Made with ❤️ by Manish Swami.</h3>
+    </form>
+</div>
+
+
+{% endblock %}

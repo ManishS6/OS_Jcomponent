@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: pacifico;
+  font-size: 3.5vh;
+}
+.App{
+  background-color: aqua;
+}
+.heading{
+  margin: 15px;
+  padding: 15px;
+  width: 900px;
+  text-align: center;
+  font-size: 40px;
+  background-color: black;
+  color: mediumvioletred;
+}
+.white{
+  color: whitesmoke;
+}
+
+.row1{
+  display: flex;
+  height: fit-content;
+  width: 900px;
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 15px;
+}
+.row1 .col1 {
+  border-radius: 3px;
+  color: darkblue;
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  background-color: aqua;
+  height: 60px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+.row1 .col2{
+  border-radius: 6px;
+  color: antiquewhite;
+  margin: 5px;
+  padding: 5px;
+  width: fit-content;
+  background-color: coral;
+  height: 60px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
+}
+.row2{
+  display: flex;
+  height: fit-content;
+  width: 900px;
+  /* width: fit-content; */
+  background-color: black;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px;
+  padding: 15px;
+}
+.row2 .col1{
+  margin: 5px;
+  padding: 15px;
+  width: fit-content;
+  height: 350px;
+  background-color: cornflowerblue;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row2 .col2{
+  margin: 5px;
+  padding: 15px;
+  width: fit-content;
+  height: 350px;
+  background-color: crimson;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#text1, #text2, #text3, #text4{
+  border-radius: 5px;
+}
+
+#text1, #text2, #text3, #text4, #btn1, #btn2{
+  padding: 10px;
+}
+
+#btn1, #btn2{
+  background-color: burlywood;
+}
