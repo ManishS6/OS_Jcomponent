@@ -48,13 +48,18 @@ def add(req):
     val1 = req.POST['text1']
     val2 = req.POST['text2']
     result = choice+val1+val2
-    key_128 = "kuch bhi"
+    # key_128 = "kuch bhi"
+    key_128 =val2
     iv = "InitializationVe"
     aesCipher = AESCipher(key_128)
     print(aesCipher.key)
-    sentence = "manish swami"
-    print(aesCipher.encrypt(sentence))
-    return render(req, 'result.html' ,{'result': result})
+    # sentence = "manish swami"
+    sentence = val1
+    encrypted_val = aesCipher.encrypt(sentence)
+    print(encrypted_val)
+    dencrypted_val = aesCipher.decrypt(encrypted_val)
+    print(aesCipher.decrypt(aesCipher.encrypt(sentence)))
+    return render(req, 'result.html' ,{'result': encrypted_val})
 
 def test(req):
     var1 = req.POST['choice'] # choice of radio button
