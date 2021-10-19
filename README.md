@@ -14,3 +14,10 @@ Django app to encrypt string using AES Algorithm or decrypt an encrypted string.
 9. That's all.
 
 # Contributors.
+
+
+[Manish Swami](https://github.com/ManishS6) 
+
+[Koushiki Mukherjee](https://github.com/koushiki2001)
+
+[Junior Swami](https://github.com/JuniorS6)
