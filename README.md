@@ -94,8 +94,8 @@ git push -u origin <your_branch_name>
 
 
 ## Contributors
-<a href="https://github.com/QAZIMAAZARSHAD/OS_Jcomponent/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OS_Jcomponent/Movie-Streaming-Website" />
+<a href="https://github.com/ManishS6/OS_Jcomponent/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ManishS6/OS_Jcomponent" />
 </a>
 
 
