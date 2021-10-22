@@ -14,6 +14,16 @@ Django app to encrypt string using AES Algorithm or decrypt an encrypted string.
 9. That's all.
 
 
+<br/>
+
+<h1 align="center"> Hacktoberfest 2021 Notice </h1>
+
+![image](./hacf.svg)
+
+Hacktoberfest 2021 is finally here and we very much welcome your wonderful contributions! You can earn a Hacktoberfest T-Shirt as a reminder of your efforts and as a token of appreciation. Visit <a href = "https://hacktoberfest.digitalocean.com/">Hacktoberfest<a/> and check out how to contribute to open source and become an open source hero! 😁 </br>
+<a href = "/Hacktober.md">Hacktober Fest Contribution Guidelines!<a/>
+
+
 ## Contribution Guidelines 🏗
 
 Are we missing any of your favorite features, which you think you can add to it❓ We invite you to contribute to this project and improve it further
